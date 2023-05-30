@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: url(./assets/bg-desktop.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  p {
+    text-align: justify;
+    padding: 20px;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(126, 119, 110);
+}
+
+h5 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    body {
+      background: linear-gradient(#000000, #000000), url(./assets/bg-desktop.jpg) no-repeat center center fixed;
+      background-size: cover;
+    }
+  }
